@@ -1,16 +1,16 @@
 from ast import literal_eval as make_tuple
+
 # Selection Sorting tuple
 
-def swapPositions(list_argument, pos1, pos2):
-     
+def swapPositions(list_argument, pos1, pos2):     
     list_argument[pos1], list_argument[pos2] = list_argument[pos2], list_argument[pos1]
     return list_argument
  
 
-# tuple_input = input("Enter a tuple like (1, 2, 3): ")
-# converted_tuple_from_input = make_tuple(tuple_input)
+tuple_input = input("Enter a tuple like (1, 2, 3): ")
+converted_tuple_from_input = make_tuple(tuple_input)
 # converted_tuple_from_input = (9, 8, 10, 1, 2, 4, 6, 5, 7, 3)
-converted_tuple_from_input = ('b', 'a', 'c', 'e', 'd')
+# converted_tuple_from_input = ('b', 'a', 'c', 'e', 'd')
 unsorted_list_from_tuple = list(converted_tuple_from_input)
 
 print("Unsorted list: ", unsorted_list_from_tuple)
