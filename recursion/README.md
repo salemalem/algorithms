@@ -4,3 +4,6 @@ You want to borrow money from your friend, Jason. Jason doesn't have money so he
 
 Factorial (Recursion example) visualization tool from University of San Francisco:
 https://www.cs.usfca.edu/~galles/visualization/RecFact.html
+
+Video explanation from JavaAID:
+https://youtu.be/AIwxbJ5mP8M
