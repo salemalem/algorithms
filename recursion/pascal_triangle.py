@@ -9,9 +9,13 @@ def pascal_number(row, column):
     else:
         return pascal_number(row - 1, column - 1) + pascal_number(row - 1, column)
 
+"""
+TO DO: Edit height properly before calling the function
+"""
+
 # print(pascal_number(2, 2))
-# print(pascal_number(4, 2))
-print(pascal_number(100, 50))
+print(pascal_number(4, 2))
+# print(pascal_number(100, 50))
 # for row in range(height + 1):
 #     for column in range(row + 1):
 #         print(pascal_number(row, column), end=" ")
