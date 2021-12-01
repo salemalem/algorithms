@@ -33,6 +33,6 @@ def move_towers(n_rods, start, destination):
 def print_move(start, destination):
   print(f"{start} -> {destination}")
 
-# move_towers(3, 1, 3)
-move_towers(200, 1, 3)
+move_towers(3, 1, 3)
+# move_towers(200, 1, 3)
 # Credits to https://youtu.be/rf6uf3jNjbo
