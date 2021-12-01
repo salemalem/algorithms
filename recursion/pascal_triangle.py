@@ -1,5 +1,8 @@
-def pascal_number(row, column, height):
-    if row == 1 or row == 2:
+height = 4
+def pascal_number(row, column):
+    if row <= 0 or column <= 0:
+        return "I can't calculate it yet"
+    elif row == 1 or row == 2:
         return 1
     elif column == 1 or column == height:
         return 1
@@ -8,6 +11,9 @@ def pascal_number(row, column, height):
 
 # print(pascal_number(2, 2))
 # print(pascal_number(4, 2))
-height = 4
-for i in range(height + 1):
+print(pascal_number(100, 50))
+# for row in range(height + 1):
+#     for column in range(row + 1):
+#         print(pascal_number(row, column), end=" ")
+#     print()
     

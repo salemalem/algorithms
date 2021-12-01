@@ -7,3 +7,9 @@ https://www.cs.usfca.edu/~galles/visualization/RecFact.html
 
 Video explanation from JavaAID:
 https://youtu.be/AIwxbJ5mP8M
+
+Recursive Problem Solving:
+Let f(n) be recursive function
+ 1) Show f(1) base case works!
+ 2) Assume f(n-1) works
+ 3) Show f(n) works using f(n-1)
