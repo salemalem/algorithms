@@ -15,6 +15,8 @@ Assumptions:
   n >= 1
 
   1 -> 3 means Move the top disk from rod a to rod b
+
+2^(n - 1) steps are required to solve for n disks
 """
 
 def move_towers(n_rods, start, destination):
@@ -32,5 +34,5 @@ def print_move(start, destination):
   print(f"{start} -> {destination}")
 
 # move_towers(3, 1, 3)
-move_towers(1, 1, 3)
+move_towers(200, 1, 3)
 # Credits to https://youtu.be/rf6uf3jNjbo
