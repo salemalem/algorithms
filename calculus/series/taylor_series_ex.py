@@ -1,6 +1,6 @@
 from math import factorial
 
-approx_sum = 1 # starting sum, point a
+approx_sum = 1 # starting sum
 
 x = 16
 for n in range(1, 101):

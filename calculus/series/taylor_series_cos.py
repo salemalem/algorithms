@@ -1,6 +1,6 @@
 from math import factorial , pi
 
-approx_sum = 1 # starting sum, point a
+approx_sum = 1 # starting sum
 
 x = pi/6
 # x = 10**-8
